@@ -1,0 +1,27 @@
+GET http://localhost:4000/subscribers/
+
+
+###
+POST http://localhost:4000/subscribers
+Content-Type: application/json
+
+{
+    "name":"Welcome",
+    "subcribeToChannel":"Hey dfasd there"
+}
+
+
+###
+GET http://localhost:4000/subscribers/
+
+###
+DELETE  http://localhost:4000/subscribers/
+
+
+###
+PATCH  http://localhost:4000/subscribers/5f38316f81dfc06bea1a84be
+Content-Type: application/json
+
+{
+    "name":"Welcome Spacey!! 😏"
+}
